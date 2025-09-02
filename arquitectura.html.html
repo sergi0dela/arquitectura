@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuestionario sobre Android | Prueba tus Conocimientos</title>
+    <meta
+      name="description"
+      content="Responde a preguntas sobre el sistema operativo Android, su historia, versiones, funcionalidades y más. Ideal para entusiastas de la tecnología móvil."
+    />
+    <meta
+      name="keywords"
+      content="Android, sistema operativo, móvil, smartphone, Google, OS, preguntas, tecnología, versiones Android, desarrollo Android"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic1.anpoimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2024%2F11%2Fandroid_photo_picker_hero_image.jpg&f=1&nofb=1&ipt=dce0b6e602fa70479f55d10f25bbf7edc56cc61a8c9af00ee953872432971ec1"
+        alt="Logo de Android"
+        title="Sistema Operativo Android"
+        width="800"
+        height="450"
+      />
+      <h1>Cuestionario: Todo sobre Android</h1>
+      <p>
+        Si eres un aficionado a la tecnología y los dispositivos móviles,
+        ¡demuestra cuánto sabes sobre el sistema operativo Android!
+      </p>
+    </header>
+
+    <main>
+      <form>
+        <fieldset>
+          <legend>Conceptos Básicos de Android</legend>
+          <div>
+            <p>1. ¿Quién desarrolló originalmente el sistema operativo Android?</p>
+            <input
+              type="radio"
+              id="android_q1_a"
+              name="android_q1"
+              value="Google"
+            />
+            <label for="android_q1_a">Google</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="android_q1_b"
+              name="android_q1"
+              value="Apple"
+            />
+            <label for="android_q1_b">Apple</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="android_q1_c"
+              name="android_q1"
+              value="Android Inc"
+            />
+            <label for="android_q1_c">Android Inc. (antes de ser adquirida)</label>
+          </div>
+
+          <div>
+            <label for="android_q2"
+              >2. ¿Cuál fue el primer teléfono comercial con Android?</label
+            >
+            <input
+              type="text"
+              id="android_q2"
+              name="android_q2_phone"
+              placeholder="Nombre del teléfono"
+              minlength="3"
+              maxlength="20"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Versiones y Nomenclatura</legend>
+          <div>
+            <p>3. ¿Qué nombre de postre se asoció a la versión 4.0 de Android?</p>
+            <input
+              type="radio"
+              id="android_q3_a"
+              name="android_q3"
+              value="Jelly Bean"
+            />
+            <label for="android_q3_a">Jelly Bean</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="android_q3_b"
+              name="android_q3"
+              value="Ice Cream Sandwich"
+            />
+            <label for="android_q3_b">Ice Cream Sandwich</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="android_q3_c"
+              name="android_q3"
+              value="KitKat"
+            />
+            <label for="android_q3_c">KitKat</label>
+          </div>
+
+          <div>
+            <p>
+              4. Selecciona las versiones de Android que NO fueron nombradas
+              con un postre:
+            </p>
+            <div>
+              <input
+                type="checkbox"
+                id="android_q4_a"
+                name="android_q4_versions[]"
+                value="Android 10"
+              />
+              <label for="android_q4_a">Android 10</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="android_q4_b"
+                name="android_q4_versions[]"
+                value="Oreo"
+              />
+              <label for="android_q4_b">Oreo</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="android_q4_c"
+                name="android_q4_versions[]"
+                value="Android 11"
+              />
+              <label for="android_q4_c">Android 11</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="android_q4_d"
+                name="android_q4_versions[]"
+                value="Pie"
+              />
+              <label for="android_q4_d">Pie</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Desarrollo y Ecosistema</legend>
+          <div>
+            <label for="android_q5"
+              >5. ¿Cuál es el lenguaje de programación principal recomendado para
+              el desarrollo de apps Android nativas?</label
+            >
+            <textarea
+              id="android_q5"
+              name="android_q5_language"
+              rows="3"
+              cols="50"
+              placeholder="Escribe aquí tu respuesta..."
+            ></textarea>
+          </div>
+        </fieldset>
+
+        <div>
+          <button type="submit">Enviar Respuestas</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Cuestionario Android. Todos los derechos reservados.</p>
+      <nav>
+        <a
+          href="https://developer.android.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Más información para desarrolladores Android</a
+        >
+      </nav>
+    </footer>
+  </body>
+</html>
